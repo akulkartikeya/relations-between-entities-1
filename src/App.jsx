@@ -1,9 +1,12 @@
+import DestinationContainer from './components/DestinationContainer';
+import './App.css';
+
 function App() {
   return (
-    <div>
-      {/* Your code here */}
+    <div className="app">
+      <DestinationContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
